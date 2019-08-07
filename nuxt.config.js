@@ -17,7 +17,8 @@ export default {
   css: [],
   plugins: ['~plugins/vuetify.js'],
   devModules: [
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/vuetify',
   ],
   modules: [],
   build: {
