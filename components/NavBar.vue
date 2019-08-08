@@ -1,5 +1,9 @@
 <template>
-  <div />
+  <div>
+    <v-toolbar dark color="red">
+      <v-app-bar-nav-icon />
+    </v-toolbar>
+  </div>
 </template>
 
 <script>
