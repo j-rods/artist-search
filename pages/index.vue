@@ -2,8 +2,8 @@
   <div>
     <h1>Search Albums</h1>
     <br></br>
-    <v-form>
-      <v-text-field v-model="search" placeholder="Search Artist" autofocus>
+    <v-form @submit.prevent="submit">
+      <v-text-field v-model="searchItem" placeholder="Search Artist" autofocus>
       </v-text-field>
     </v-form>
   </div>
@@ -14,8 +14,13 @@ export default {
   components: {},
   data () {
     return {
-      search: ''
+      searchItem: ''
     };
+  },
+  methods: {
+    submit (event) {
+      this.$router.push(`results/${this.searchItem}`);
+    }
   }
 };
 </script>
