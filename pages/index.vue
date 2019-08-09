@@ -3,8 +3,7 @@
     <h1>Search Albums</h1>
     <br></br>
     <v-form @submit.prevent="submit">
-      <v-text-field v-model="searchItem" placeholder="Search Artist" autofocus>
-      </v-text-field>
+      <v-text-field v-model="searchItem" placeholder="Search Artist" autofocus />
     </v-form>
   </div>
 </template>

@@ -10,7 +10,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,500,700|Material+Icons'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,500,700|Material+Icons' }
     ]
   },
   loading: { color: '#fff' },
@@ -18,7 +18,7 @@ export default {
   plugins: ['~plugins/vuetify.js'],
   devModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
   modules: [],
   build: {
@@ -26,4 +26,4 @@ export default {
     extend (config, ctx) {
     }
   }
-}
+};
