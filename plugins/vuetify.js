@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import Vuetify from 'vuetify/lib'
-import colors from 'vuetify/lib/util/colors'
+import Vue from 'vue';
+import Vuetify from 'vuetify/lib';
+import colors from 'vuetify/lib/util/colors';
 
-Vue.use(Vuetify)
+Vue.use(Vuetify);
 
 const vuetify = new Vuetify({
   theme: {
@@ -22,6 +22,6 @@ const vuetify = new Vuetify({
       }
     }
   }
-})
+});
 
-export default vuetify
+export default vuetify;
