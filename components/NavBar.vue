@@ -2,14 +2,29 @@
   <div>
     <v-toolbar dark color="red">
       <v-app-bar-nav-icon />
-      <v-toolbar-title>Artist Search</v-toolbar-title>
+      <v-toolbar-title class="white--text">
+        <nuxt-link class="title" to="/">
+          Artist Search
+        </nuxt-link>
+      </v-toolbar-title>
+      <v-spacer />
+      <v-btn to="/" icon>
+        <v-icon>refresh</v-icon>
+      </v-btn>
     </v-toolbar>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
-<style>
+<style scoped>
+.title {
+  text-decoration: none !important;
+}
+
+.title:visited{
+  color:white;
+}
 </style>

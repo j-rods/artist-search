@@ -6,7 +6,7 @@
         artist-search
       </h1>
       <h2 class="subtitle">
-        My hunky-dory Nuxt.js project
+        A place  to search for some albums
       </h2>
       <div class="links">
         <a
@@ -53,7 +53,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 20px;
   color: #35495e;
   letter-spacing: 1px;
 }
