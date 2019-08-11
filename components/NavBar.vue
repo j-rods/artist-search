@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar dark color="red">
+    <v-toolbar color="primary">
       <v-app-bar-nav-icon />
       <v-toolbar-title class="white--text">
         <nuxt-link class="title" to="/">
