@@ -1,10 +1,10 @@
 <template>
-    <v-app>
-      <section class="container">
-        <NavBar />
-        <nuxt />
-      </section>
-    </v-app>
+  <v-app>
+    <section class="container">
+      <NavBar />
+      <nuxt />
+    </section>
+  </v-app>
 </template>
 
 <script>
