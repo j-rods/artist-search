@@ -1,6 +1,7 @@
 # artist-search
 
-> My hunky-dory Nuxt.js project
+> Small App that searches for artists and returns formatted album info.
+> Built with Nuxt.js, VueX, Axios, iTunes Search API & Vuetify
 
 ## Build Setup
 
@@ -11,12 +12,6 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
