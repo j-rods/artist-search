@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Search Albums</h1>
+    <h1 class="font-weight-light font-weight-light display-3 search-title">Album Database</h1>
     <br></br>
     <v-form @submit.prevent="submit">
       <v-text-field v-model="searchItem" placeholder="Search Artist" autofocus />
@@ -31,5 +31,9 @@ export default {
 
 h1 {
   padding: 20px;
+}
+
+.search-title {
+  margin-top: 20px;
 }
 </style>

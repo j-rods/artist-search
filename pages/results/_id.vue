@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1>Results for {{ $route.params.id }}</h1>
+    <h1 class="font-weight-light">Results for {{ $route.params.id }}</h1>
     <div v-if="albumExists">
-      <div v-for="(album, index) in albumData" v-bind:key="index">
+      <div v-for="(album, index) in albumData" :key="index">
         <Card
           :title="album.collectionCensoredName"
           :image="album.artworkUrl100"
           :artistName="album.artistName"
           :url="album.collectionViewUrl"
-          :color="blue"
+          :color="picker(index)"
         />
       </div>
       <!-- {{ albumData }} -->
@@ -44,7 +44,12 @@ export default {
         console.log(error);
       });
   },
-  middleware: 'search'
+  middleware: 'search',
+  methods: {
+    picker (index) {
+      return index % 2 === 0 ? 'cyan darken-2' : 'cyan darken-1';
+    }
+  }
 };
 </script>
 

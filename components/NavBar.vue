@@ -8,7 +8,7 @@
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer />
-      <v-btn to="/" icon>
+      <v-btn to="/" icon class="white--text">
         <v-icon>refresh</v-icon>
       </v-btn>
     </v-toolbar>
